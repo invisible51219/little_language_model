@@ -14,7 +14,7 @@ train_texts = [
     "Natural language processing is fascinating."
 ]
 
-train_labels = [1, 1, 0, 1]  # 假设1代表正面情感，0代表负面情感
+train_labels = [1, 1, 0, 1] 
 
 
 class CustomDataset(torch.utils.data.Dataset):
